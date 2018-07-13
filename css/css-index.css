@@ -529,6 +529,11 @@ a:hover {
 #contact  h2{
 	color: white;
 }
+
+#contactbtn {
+	background-color: #00667F;
+	color: white;
+}
 .ul-address a {
 	font-weight: normal;
 }
