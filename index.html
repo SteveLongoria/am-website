@@ -47,8 +47,27 @@ document.write('<link href="https://accelerateyourmarketing.com/css/css-index.cs
 </div> 
 
 <!-- /.header button -->
-<div class="head-btn" style="visibility: visible; animation-name: fadeInLeft;">
-<a href="form.html" class="btn-primary btn-md">Get Instant Access</a>
+<!-- IS Form Below -->
+<div class="subscribe-form wow fadeInUp">
+<form accept-charset="UTF-8" action="https://ig240.infusionsoft.com/app/form/process/f4b2b1f0d7548501003c9bbfcfaaea88" class="infusion-form" id="inf_form_f4b2b1f0d7548501003c9bbfcfaaea88" method="POST">
+<input name="inf_form_xid" type="hidden" value="f4b2b1f0d7548501003c9bbfcfaaea88" />
+<input name="inf_form_name" type="hidden" value="800 Doors Case Study" />
+<input name="infusionsoft_version" type="hidden" value="1.70.0.58116" />
+<div class="infusion-field">
+<input class="infusion-field-input form-control " id="inf_field_Email" name="inf_field_Email" placeholder="Your email..." type="text" />
+</div>
+<input id="gclidInput" name="inf_field_ReferralCode" type="hidden" value="null" />
+<div>
+		<div>&nbsp;</div>
+</div>
+<div class="infusion-submit">
+		<button class="infusion-recaptcha subscribe-btn btn" id="recaptcha_f4b2b1f0d7548501003c9bbfcfaaea88" type="submit">Submit</button>
+</div>
+</form>
+<script type="text/javascript" src="https://ig240.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+<script type="text/javascript" src="https://ig240.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.58116"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
+<script type="text/javascript" src="https://ig240.infusionsoft.com/app/timezone/timezoneInputJs?xid=f4b2b1f0d7548501003c9bbfcfaaea88"></script>
 </div>
 </div> 
 </div>
@@ -243,10 +262,16 @@ document.write('<center><img style="margin-top: 30px;" class="img-responsive" sr
 </div>
 </footer>
 
+<script src="dist/qs.min.js"></script>
 <script>
 if(!navigator.userAgent.match(/Speed|Linux.*Moto\sG|Lighthouse|gtmetrix|x11.*Firefox\/54|x11.*chrome\/39|x11.*chrome\/62|woobot\/2.*|Wget.*\/1/i)){
 document.write('<link href="https://accelerateyourmarketing.com/css/font-awesome.min.css" rel="stylesheet">');
 }
+</script>
+<script>
+const qstring = qs.get();
+const gclid = qstring.gclid;
+document.getElementById("gclidInput").value = gclid;
 </script>
 
 <!-- Google Tag Manager -->
