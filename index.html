@@ -272,6 +272,12 @@ document.write('<link href="https://accelerateyourmarketing.com/css/font-awesome
 const qstring = qs.get();
 const gclid = qstring.gclid;
 document.getElementById("gclidInput").value = gclid;
+
+drift.on('ready', function() {
+  drift.api.setUserAttributes({
+    gclid: gclid
+  })
+})
 </script>
 
 <!-- Google Tag Manager -->
