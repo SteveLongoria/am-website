@@ -95,7 +95,7 @@ document.write('<link href="https://accelerateyourmarketing.com/css/css-index.cs
 <li><a href="services.html">Services</a></li>
 <li><a href="reviews.html">Reviews</a></li>
 <li><a href="https://accelerateyourmarketing.com/blog/" target="_blank">Blog</a></li>
-<li><a id="contactbtn" onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#qualification">Contact</a></li>
+<li><a id="contactbtn" onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#chatnow">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -117,7 +117,7 @@ document.write('<link href="https://accelerateyourmarketing.com/css/css-index.cs
 <p>After we've laid a proper foundation for your business it's time to drive traffic and optimize your sales copy to maximize your return on investment. 
 <h2 class="text-center">Click Below To Start Getting More Doors Today!</h2>
 <div class="head-btn animated animated text-center" style="visibility: visible; animation-name: fadeInLeft; margin-top:40px;">
-<a onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#qualification" class="btn-primary btn-md">Chat With Us</a>
+<a onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#chatnow" class="btn-primary btn-md">Chat With Us</a>
 </div>
 <div class="container">
 <script>
@@ -275,9 +275,9 @@ document.getElementById("gclidInput").value = gclid;
 
 drift.on('ready', function() {
   drift.api.setUserAttributes({
-    gclid: gclid
-  })
-})
+    Original_UTM_Campaign: gclid
+  });
+});
 </script>
 
 <!-- Google Tag Manager -->
