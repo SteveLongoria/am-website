@@ -239,6 +239,11 @@ if(!navigator.userAgent.match(/Speed|Linux.*Moto\sG|Lighthouse|gtmetrix|x11.*Fir
 document.write('<center><img style="margin-top: 30px;" class="img-responsive" src="https://accelerateyourmarketing.com/images/authoritylogos.png"/></center>');
 }
 </script>
+<script>
+if(!navigator.userAgent.match(/Speed|Linux.*Moto\sG|Lighthouse|gtmetrix|x11.*Firefox\/54|x11.*chrome\/39|x11.*chrome\/62|woobot\/2.*|Wget.*\/1/i)){
+document.write('<center><img style="margin-top: 30px;" class="img-responsive" src="images/drift.jpeg"/></center>');
+}
+</script>
 
 
 </div>
@@ -275,7 +280,7 @@ document.getElementById("gclidInput").value = gclid;
 
 drift.on('ready', function() {
   drift.api.setUserAttributes({
-    Original_UTM_Campaign: gclid
+    gclid: gclid
   });
 });
 </script>
