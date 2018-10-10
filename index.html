@@ -231,7 +231,7 @@ Bahast B.<span class="company">Liverpool, UK</span>
 </div> 
 <h2 style="margin-top:75px;" class="text-center">Click Below To Start Getting More Doors Today!</h2>
 <div class="head-btn animated animated text-center" style="visibility: visible; animation-name: fadeInLeft; margin-top:40px;">
-<a onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#qualification" class="btn-primary btn-md">Chat With Us</a>
+<a onclick="ga('send', 'event', 'Button', 'Click', 'Home CTA');" href="#chatnow" class="btn-primary btn-md">Chat With Us</a>
 </div>
 
 <script>
@@ -295,5 +295,15 @@ drift.on('ready', function() {
 			})(window,document,'script','dataLayer','GTM-MM68CRC');}
 			</script>
 			<!-- End Google Tag Manager -->
+			
+<script>
+if(!navigator.userAgent.match(/Speed|Linux.*Moto\sG|Lighthouse|gtmetrix|x11.*Firefox\/54|x11.*chrome\/39|x11.*chrome\/62|woobot\/2.*|Wget.*\/1/i)){
+window.drift.on("startConversation",
+function(){fbq("track","startConversation")});
+window.drift.on("emailCapture",
+function(){fbq("track","emailCaptured")});
+window.drift.on("scheduling:meetingBooked",
+function(){fbq("track","meetingBooked")});}
+</script>			
 </body>
 </html>
