@@ -16,7 +16,7 @@ body {
 	margin:0;
 	font-size:18px;
 	line-height: 28px;
-	color: #444; 
+	color: #444;
 	background: #fff;
 	overflow-x:hidden;
 	position: relative;
@@ -30,8 +30,8 @@ h6 { font-size: 1em; line-height:1.2em; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none
-}	 
-p { 
+}
+p {
 	padding: 0 0 1em;
 	margin:0;
 }
@@ -41,7 +41,7 @@ a {
 	font-weight: bold;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
-} 
+}
 a:hover {
 	text-decoration: none;
 	color: #1f2222;
@@ -51,14 +51,14 @@ a:hover {
 .highlight {
 	color: #12495f;
 }
-#preloader { 
-	position: fixed; 
-	left: 0; 
-	top: 0; 
-	z-index: 999; 
-	width: 100%; 
-	height: 100%; 
-	overflow: visible; 
+#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
 	background: #fff url(../images/loading.gif) no-repeat center center;
 }
 .fullscreen {
@@ -94,8 +94,8 @@ a:hover {
 .navbar-default .navbar-nav > li > a:focus {
     color: #12495f;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background: #ffffff;
     color: #12495f;
@@ -123,14 +123,15 @@ a:hover {
 	margin: 30px 0 10px;
 	margin-right: 10px;
 	line-height: 20px;
-	padding: 13px 45px;
-	height: 200px;
+	padding: 20px 45px;
+	height: 75px;
 	border: 2px solid #12495f;
 	background: #12495f;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 100px;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 	border: 2px solid #12495f;
 	background: #12495f;
@@ -177,7 +178,7 @@ a:hover {
 	margin-bottom: 20px;
 }
 .landing-text p {
-	font-size: 17px !important; 
+	font-size: 17px !important;
 }
 .head-btn {
 	margin-bottom: 150px;
@@ -196,7 +197,7 @@ a:hover {
 	background: rgba(255,255,255,0.2);
 	border-radius: 4px;
 	padding-left: 20px;
-	padding-right: 20px;	
+	padding-right: 20px;
 }
 .signup-header h3{
 	padding: 20px 0 10px;
@@ -365,14 +366,14 @@ a:hover {
 .subscribe-form .form-control::-webkit-input-placeholder {
 	color: #333;
 }
-.subscribe-form .form-control:-moz-placeholder { 
-	color: #333;  
+.subscribe-form .form-control:-moz-placeholder {
+	color: #333;
 }
-.subscribe-form .form-control::-moz-placeholder { 
-	color: #333;  
+.subscribe-form .form-control::-moz-placeholder {
+	color: #333;
 }
-.subscribe-form .form-control:-ms-input-placeholder {  
-	color: #333;  
+.subscribe-form .form-control:-ms-input-placeholder {
+	color: #333;
 }
 #package {
 	padding-top: 100px;
@@ -431,7 +432,7 @@ a:hover {
 	background: #12495f;
 	transition: all 0.4s;
 	color: white;
-	border-radius: 4px;	
+	border-radius: 4px;
 }
 .btn-price:hover {
 	background: #1f96e0;
@@ -498,7 +499,7 @@ a:hover {
 }
 .video-embed {
 	position: relative;
-	padding-top: 56.25%; 
+	padding-top: 56.25%;
 	height: 0;
 	background-color: #000000;
 	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -541,16 +542,16 @@ a:hover {
 	color: white;
 }
 .ul-address li {
-	padding-right: 20px; 
-	margin-bottom: 8px; 
+	padding-right: 20px;
+	margin-bottom: 8px;
 	list-style: none;
 	color: white;
 }
 .ul-address i {
 	margin-left: 15px;
-	position: absolute; 
+	position: absolute;
 	left: 0;
-	color: #12495f; 
+	color: #12495f;
 	font-size: 25px;
 	line-height: 30px;
 }
@@ -659,51 +660,51 @@ a:hover {
 #shortcode-alert {
 	padding: 70px 0 30px;
 }
-.alert { 
-	border: none; 
-	border-radius: 0; 
-	position: relative; 
-	font-size: 17px; 
-	line-height: 22px; 
-	padding: 16px; 
-	padding-left: 60px; 
+.alert {
+	border: none;
+	border-radius: 0;
+	position: relative;
+	font-size: 17px;
+	line-height: 22px;
+	padding: 16px;
+	padding-left: 60px;
 }
-.alert i { 
-	font-size: 28px; 
-	position: absolute; 
-	left: 15px; 
-	top: 13px; 
-} 
+.alert i {
+	font-size: 28px;
+	position: absolute;
+	left: 15px;
+	top: 13px;
+}
 .icon-demo i {
 	font-size: 70px;
 	margin-right: 20px;
 }
-.table > thead > tr > th { 
-	background: #12495f; 
-	color: #fff; 
-	border-bottom: 0; 
-	text-transform: uppercase; 
+.table > thead > tr > th {
+	background: #12495f;
+	color: #fff;
+	border-bottom: 0;
+	text-transform: uppercase;
 }
-.table > thead > tr > th, 
-.table > tbody > tr > td { 
-	font-size: 15px; 
-	font-weight: 300; 
-	padding: 20px 20px; 
+.table > thead > tr > th,
+.table > tbody > tr > td {
+	font-size: 15px;
+	font-weight: 300;
+	padding: 20px 20px;
 }
-.table-bg > tbody > tr:nth-child(odd) > td, 
-.table-bg > tbody > tr:nth-child(odd) > th { 
-	background: #fff; 
+.table-bg > tbody > tr:nth-child(odd) > td,
+.table-bg > tbody > tr:nth-child(odd) > th {
+	background: #fff;
 }
-.table-bg > tbody > tr:nth-child(even) > td, 
-.table-bg > tbody > tr:nth-child(even) > th { 
-	background: #f6f6f6; 
+.table-bg > tbody > tr:nth-child(even) > td,
+.table-bg > tbody > tr:nth-child(even) > th {
+	background: #f6f6f6;
 }
 .scrollToTop{
-	width: 40px; 
+	width: 40px;
 	height: 40px;
 	padding: 5px;
 	font-size: 30px;
-	text-align: center; 
+	text-align: center;
 	background: rgba(0, 0, 0, 0.2);
 	color: white;
 	position: fixed;
@@ -719,9 +720,9 @@ a:hover {
 	overflow-x: hidden;
 }
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
 and (orientation : portrait) {
 	.head-btn {
 		margin: 50px 0 100px;
@@ -756,7 +757,7 @@ and (orientation : portrait) {
 	}
 	.feature-img {
 		margin-top: 0;
-	}	
+	}
 	.row-feat {
 		padding-top: 10px;
 		padding-bottom: 40px;
@@ -770,7 +771,7 @@ and (orientation : portrait) {
 	#client img {
 		margin: 10px 0 10px;
 		max-height: 40px;
-	}	
+	}
 	.video-header {
 		margin: 50px 0 30px;
 	}
@@ -786,16 +787,16 @@ and (orientation : portrait) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
 and (orientation : landscape) {
 	.logo {
 		margin: 100px 0 30px 0;
 	}
 	.landing h1{
 		margin: 60px 0 60px 0;
-	}	
+	}
 	.landing-text {
 		margin: 60px 0 40px 0;
 	}
@@ -807,7 +808,7 @@ and (orientation : landscape) {
 	}
 	.feature-img {
 		margin-top: 30px;
-	}	
+	}
 	.feat-list {
 		margin-top: 10px;
 	}
@@ -819,7 +820,7 @@ and (orientation : landscape) {
 	}
 	#client img {
 		max-height: 45px;
-	}	
+	}
 	.video-header {
 		margin: 50px 0 30px;
 	}
@@ -881,7 +882,7 @@ and (orientation : landscape) {
 	}
 	#client img {
 		margin: 10px 0 10px;
-	}	
+	}
 	.contact-left {
 		margin-bottom: 50px;
 	}
@@ -894,7 +895,7 @@ and (orientation : landscape) {
 	img#download-img.img-responsive {
 		margin-top:100px;
 	}
-}	
+}
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
 	.feature-img {
@@ -940,7 +941,7 @@ and (orientation : landscape) {
 		font-size: 40px;
 		margin: 20px 0 10px 0;
 	}
-	
+
 	#headline {
     font-size: 40px;
     font-weight: 300;
@@ -948,9 +949,9 @@ and (orientation : landscape) {
     margin: 30px 0 30px 0;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
-	
+
 	.landing-text p {
-		font-size: 16px !important; 
+		font-size: 16px !important;
 	}
 	#intro {
 		padding-top: 50px;
@@ -969,7 +970,7 @@ and (orientation : landscape) {
 	}
 	#screenshot {
 		padding-top: 70px;
-	}	
+	}
 	.screenshots {
 		padding-top: 30px;
 		padding-bottom: 70px;
@@ -985,8 +986,8 @@ and (orientation : landscape) {
 		margin: 50px 0 20px;
 	}
 	.download-text p {
-		line-height: 1.5;	
-	}	
+		line-height: 1.5;
+	}
 	img#download-img.img-responsive {
 		margin-top:100px;
 	}
@@ -1062,9 +1063,9 @@ and (orientation : landscape) {
 	.action h2 {
 		margin: 70px 0 20px;
 	}
-	.table > thead > tr > th, 
-	.table > tbody > tr > td { 
-		padding: 20px 10px; 
+	.table > thead > tr > th,
+	.table > tbody > tr > td {
+		padding: 20px 10px;
 	}
 	img#download-img.img-responsive {
 		margin-top:100px;
@@ -1116,7 +1117,7 @@ body{background-color:#fff;}
     color: #414141;
 }
 
-#generic_price_table .generic_content .generic_feature_list ul li{	
+#generic_price_table .generic_content .generic_feature_list ul li{
 	color: #000000;
 }
 
@@ -1129,9 +1130,9 @@ body{background-color:#fff;}
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-	border: 1px solid #12495f; 
+	border: 1px solid #12495f;
     color: #12495f;
-} 
+}
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
@@ -1148,7 +1149,7 @@ body{background-color:#fff;}
 #generic_price_table .generic_content.active .generic_price_btn a{
 	background-color: #12495f;
 	color: #fff;
-} 
+}
 #generic_price_table{
 	margin: 50px 0 50px 0;
     font-family: 'Raleway', sans-serif;
@@ -1294,8 +1295,8 @@ body{background-color:#fff;}
 	-ms-transition: all 0.3s ease-in-out 0s;
 	-o-transition: all 0.3s ease-in-out 0s;
 	-webkit-transition: all 0.3s ease-in-out 0s;
-} 
-@media (max-width: 320px) {	
+}
+@media (max-width: 320px) {
 }
 
 @media (max-width: 767px) {
@@ -1308,12 +1309,12 @@ body{background-color:#fff;}
 		float:left;
 		width:50%;
 	}
-	
+
 	#generic_price_table .col-md-4{
 		float:left;
 		width:50%;
 	}
-	
+
 	#generic_price_table .generic_content{
 		margin-bottom:75px;
 	}
@@ -1479,7 +1480,7 @@ body{background-color:#fff;}
 	background-color: #666;
 	color: #FFF;
 	text-decoration:none;
-	
+
 }
 .bottom_btn:hover{
 	background-color: #666;
@@ -1500,4 +1501,4 @@ body{background-color:#fff;}
     margin-left: -15px;
     margin-right: -15px;
     background-color: #fff;
-} 
+}
